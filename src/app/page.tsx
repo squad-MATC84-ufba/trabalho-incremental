@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
-import Title from '../../components/atoms/title'
-import Button from '../../components/atoms/button' // TODO: Remover átomos da página
+import { Title } from '@/components/atoms/Title'
+import { Button } from '@/components/atoms/Button' // TODO: Remover átomos da página
 
 export default function Home() {
   return (

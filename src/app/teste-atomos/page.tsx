@@ -1,11 +1,10 @@
-// /home/david/Documentos/UFBA/8o-semestre/Lab-web/hello-world/src/app/cadastro/page.tsx
 'use client'
 
 import React, { useState } from 'react'
-import Title from  '../../../components/atoms/title'
-import Input from  '../../../components/atoms/input'
-import Button from '../../../components/atoms/button'
-import Label from '../../../components/atoms/label'
+import { Button } from '@/components/atoms/Button'
+import { Input } from '@/components/atoms/Input'
+import { Label } from '@/components/atoms/Label'
+import { Title } from '@/components/atoms/Title'
 import Link from 'next/link'
 
 export default function Page() {
