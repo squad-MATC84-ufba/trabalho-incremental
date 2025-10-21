@@ -4,7 +4,7 @@ interface TitleProps {
     className?: string;
 }
 
-export default function Title({children, className}: Readonly<TitleProps>) {
+export function Title({children, className}: TitleProps) {
   return (
     <div style={{ textAlign: 'center' }}>
         <h1 className={`truncate font-medium text-lg text-gray-900 ${className}`}>
