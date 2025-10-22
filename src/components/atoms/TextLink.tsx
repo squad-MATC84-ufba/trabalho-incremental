@@ -1,4 +1,3 @@
-// src/components/atoms/TextLink.tsx
 import React from 'react';
 import Link from 'next/link';
 
