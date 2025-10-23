@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { Title } from '@/components/atoms/Title'
-import { Button } from '@/components/atoms/Button' // TODO: Remover átomos da página
+import { Button } from '@/components/atoms/Button'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
             <ul>
               <li>
               <Button>
-                <Link href='/teste-atomos'>Teste de Átomos</Link>
+                <Link href='/cadastro'>Tela de Cadastro</Link>
               </Button>
               </li>
             </ul>
