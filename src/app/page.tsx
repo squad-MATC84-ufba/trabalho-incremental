@@ -13,7 +13,11 @@ export default function Home() {
             <ul>
               <li>
               <Button>
+<<<<<<< HEAD
                 <Link href='/cadastro'>Tela de Cadastro</Link>
+=======
+                <Link href='/teste-cadastro'>Teste de Átomos</Link>
+>>>>>>> 25f2bd8 (fix: ajuste para roteamento para tela de cadastro)
               </Button>
               </li>
             </ul>
