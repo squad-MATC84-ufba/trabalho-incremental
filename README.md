@@ -15,7 +15,7 @@ Projeto criado incrementalmente ao longo do semestre utilizando o framwork **Nex
 ## Alunos da Squad (Ativos):
 - Hugo Chaves
 - Ícaro Miranda
-- Enzo Maglhães
+- Enzo Magalhães
 - Danilo Andrade
 
 ## Alunos da Squad (Desistentes):
