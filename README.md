@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Incremental - Atividades de 02 a 05 (UFBANK)
 
-## Getting Started
+Projeto criado incrementalmente ao longo do semestre utilizando o framwork **Next.js**, contemplando todas as entregas previstas pelo componente curricular *Lab de Programação Web* da Universidade Federal da Bahia, com o objetivo de desenvolvermos parte do protótipo de uma fintech fictícia **UFBANK** 
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Atividades Realizadas:
+- Entrega 02: Estruturação em Atomic Design + Tela de Cadastro de Usuários
+- Entrega 03: Estruturação em Atomic Design + Tela de Cadastro de Usuários + API Route
+- Entrega 04: Tela de Cadastro de Máquinas de Pagamento + API Route
+- Entrega 05: Tela de Cadastro de Valores das Máquinas + API Route
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Alunos da Squad (Ativos):
+- Hugo Chaves
+- Ícaro Miranda
+- Enzo Maglhães
+- Danilo Andrade
 
-## Learn More
+## Alunos da Squad (Desistentes):
+- Davi Lima 
+- Márcio Júnior
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como executar localmente
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone este repositório:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/squad-MATC84-ufba/trabalho-incremental.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Depois de clonar, abra o Command Prompt e navegue até a pasta do projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd trabalho-incremental 
+   ```
+
+3. Se não tiver instalado, instale as dependências:
+
+   ```bash
+   npm install
+   ```
+4. Instale o Zod para validação de dados dos formulários de cadastro (caso já não tenha instalado):
+
+   ```bash
+   npm install zod react-hook-form @hookform/resolvers
+   ```
+5. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Abra no navegador:
+
+   ## Para acesso à tela de cadastro do usuário/administrativo 
+   ```
+   http://localhost:3000/cadastro 
+   ```
+   ## Para acesso à tela de cadastro das máquinas 
+   ```
+   http://localhost:3000/maquinas/cadastro  
+   ```
+   ## Para acesso à tela de cadastro de valores das máquinas 
+   ```
+   http://localhost:3000/maquinas/valores  
+   ``` 
+---
+
+## Rotas principais
+
+| Rota                 | Descrição                                                |
+| ---------------------| ---------------------------------------------------------|
+| `/`                  | Página inicial padrão desativada (não há tela de login)  |
+| `/cadastro`          | Cadastro de usuários                                     |
+| `/maquinas/cadastro` | Cadastro de máquinas                                     |
+| `/maquinas/valores`  | Cadastro de valores de máquinas                          |
