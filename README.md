@@ -12,8 +12,6 @@ Projeto criado incrementalmente ao longo do semestre utilizando o framwork **Nex
 
 ---
 
----
-
 ## Alunos da Squad (Ativos):
 - Hugo Chaves
 - Ícaro Miranda
