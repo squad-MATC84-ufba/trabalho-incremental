@@ -32,7 +32,7 @@ Projeto criado incrementalmente ao longo do semestre utilizando o framwork **Nex
    git clone https://github.com/squad-MATC84-ufba/trabalho-incremental.git
    ```
 
-2. Depois de clonar, abra o Command Prompt e navegue até a pasta do projeto:
+2. Depois de clonar, abra o terminal e navegue até a pasta do projeto:
 
    ```bash
    cd trabalho-incremental 
